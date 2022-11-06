@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>FIFA WORLD CUP QATAR 2022 - GROUP G</title>
+        
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <script src="JAVASCRIPT/index.js" defer></script>
+    </head>
+
+    <body>
+
+        <div class="content">
+            <div class="cabecalho">
+                <h1>FIFA WORLD CUP 2022</h1>
+                <h1>QATAR</h1>
+            </div>
+           
+            <div class="tabela">  
+                <h2>CLASSIFICAÇÃO - GRUPO G</h2>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>POSIÇÃO</th>
+                            <th>SELEÇÃO</th>
+                            <th>PTS</th>
+                            <th>VIT</th>
+                            <th>EMP</th>
+                            <th>DER</th>
+                            <th>SG</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1°</td>
+                            <td id="sel1"></td>
+                            <td id="pts1"></td>
+                            <td id="vit1"></td>
+                            <td id="emp1"></td>
+                            <td id="der1"></td>
+                            <td id="sg1"></td>
+                        </tr>
+
+                        <tr>
+                            <td>2°</td>
+                            <td id="sel2"></td>
+                            <td id="pts2"></td>
+                            <td id="vit2"></td>
+                            <td id="emp2"></td>
+                            <td id="der2"></td>
+                            <td id="sg2"></td>
+                        </tr>
+
+                        <tr>
+                            <td>3°</td>
+                            <td id="sel3"></td>
+                            <td id="pts3"></td>
+                            <td id="vit3"></td>
+                            <td id="emp3"></td>
+                            <td id="der3"></td>
+                            <td id="sg3"></td>
+                        </tr>
+
+                        <tr>
+                            <td>4°</td>
+                            <td id="sel4"></td>
+                            <td id="pts4"></td>
+                            <td id="vit4"></td>
+                            <td id="emp4"></td>
+                            <td id="der4"></td>
+                            <td id="sg4"></td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>        
+
+            <h2>GAMES</h2>
+
+            <div class="game">
+                <div class="rodada">
+                    <h3>1ª RODADA:</h3>
+                </div>
+                <p><img src="IMG/suica.png" alt="Suiça"> SUI <span> <input id="goalsSuica1" type="text"> X <input id="goalsCamaroes1" type="text"> </span> CAM <img src="IMG/camaroes.png" alt="Camarões"></p>
+                <p> | </p>
+                <p><img src="IMG/brasil.png" alt="Brasil"> BRA <span> <input id="goalsBrasil1" type="text"> X <input id="goalsServia1" type="text"> </span> SER <img src="IMG/servia.png" alt="Sérvia"></p>
+                <input type="button" value="Atualizar" id="primeiraRodada">
+            </div>
+
+            <div class="game">
+                <div class="rodada">
+                    <h3>2ª RODADA:</h3>
+                </div>
+                <p><img src="IMG/camaroes.png" alt="Camarões"> CAM <span> <input id="goalsCamaroes2" type="text"> X <input id="goalsServia2" type="text"> </span> SER <img src="IMG/servia.png" alt="Sérvia"></p>
+                <p> | </p>
+                <p><img src="IMG/brasil.png" alt="Brasil"> BRA <span> <input id="goalsBrasil2" type="text"> X <input id="goalsSuica2" type="text"> </span> SUI <img src="IMG/suica.png" alt="Suiça"></p>
+                <input type="button" value="Atualizar" id="segundaRodada">
+            </div>
+
+            <div class="game">
+                <div class="rodada">
+                    <h3>3ª RODADA:</h3>
+                </div>
+                <p><img src="IMG/camaroes.png" alt="Camarões"> CAM <span> <input id="goalsCamaroes3" type="text"> X <input id="goalsBrasil3" type="text"> </span> BRA <img src="IMG/brasil.png" alt="Brasil"></p>
+                <p> | </p>
+                <p><img src="IMG/servia.png" alt="Sérvia"> SER <span> <input id="goalsServia3" type="text"> X <input id="goalsSuica3" type="text"> </span> SUI <img src="IMG/suica.png" alt="Suiça"></p>
+                <input type="button" value="Atualizar" id="terceiraRodada">
+            </div>
+        
+        </div>
+
+    </body>
+
+</html>
